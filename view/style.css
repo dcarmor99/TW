@@ -1,0 +1,596 @@
+
+
+/* --------- Estructura Flexbox */
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+}
+
+#contenido{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.contenido_2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+div.contenidos{
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* -------------- ENCABEZADO y NAV */
+
+header{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+
+
+#div11{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#div11 img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height: 150px;
+}
+
+
+#div12{
+    margin: 0px;
+    text-align: center;
+    background-color: #f19f78;
+}
+
+#div13{
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    justify-content: center;
+}
+
+#div13 a {
+    margin-right: 40px;
+    color: black;
+}
+
+
+#div13 a:link {
+    text-decoration: none;
+}
+
+#div13 a:hover{
+    background-color: #f19f78;
+    color: #9d9895;
+}
+
+#div13  a:active{
+    background-color: #ee600b;
+    color: black;
+}
+
+#div12 h4{
+    margin: 0px;
+}
+
+/* -------------- CONTENEDOR PRINCIPAL DE CONTENIDO */
+
+
+
+#contenido #c_izq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1600px;
+    /*height: 400px;*/
+    background-color:white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    /*justify-content: center;*/
+}
+
+
+.contenido_2  .c_izq_2{
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1600px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+
+
+#contenido #c_der{
+    width: 300px;
+    /*height: 400px;*/
+    background-color:#f19f78;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contenido_2 #c_der{
+    width: 300px;
+    /*height: 400px;*/
+    background-color:#f19f78;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;  
+}
+
+
+div.contenidos #c_der{
+    width: 300px;
+    /*height: 400px;*/
+    background-color:#f19f78;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#contenido #c_izq h3{
+    margin: 50px 50px 50px 50px;
+
+}
+
+
+
+#contenido #c_der form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: #fcf0ac;
+}
+
+.contenido_2 #c_der form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: #fcf0ac;
+}
+
+
+div.contenidos #c_der form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: #fcf0ac;
+}
+
+
+
+#contenido #c_der form button{
+    background-color: lightcoral;
+    height: 40px;
+    width: 40%;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contenido_2 #c_der form button{
+    background-color: lightcoral;
+    height: 40px;
+    width: 40%;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div.contenidos #c_der form button{
+    background-color: lightcoral;
+    height: 40px;
+    width: 40%;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#contenido #c_der div.cont_extra{
+    max-width: 90%;
+    /*height: 300px;*/
+    background-color:lightblue;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    
+}
+
+.contenido_2 #c_der div.cont_extra{
+    max-width: 90%;
+    /*height: 300px;*/
+    background-color:lightblue;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    
+}
+
+div.contenidos #c_der div.cont_extra{
+    max-width: 90%;
+    /*height: 300px;*/
+    background-color:lightblue;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    
+}
+
+#contenido #c_der div.cont_extra h4{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contenido_2 #c_der div.cont_extra h4{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* -------------- Listado de Incidencias */
+div.c_izq_2 h3 {
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.crit_busq{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido_2  div.crit_busq{
+    width: 100%;
+}
+
+.crit_busq h5 {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    background-color: #f19f78;
+}
+
+/* -------------- Form. Ordena */
+.form_orden{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #f19f78;
+}
+
+.form_orden{
+    display: flex;
+    flex-direction: row;
+}
+
+.form_orden h4{
+    margin-left: 5px;
+}
+
+.form_orden input {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.form_orden label {
+    margin-top: 23px;
+    margin-right: 10px;
+}
+
+/* -------------- Form. Búsqueda */
+
+.form_contiene{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black; 
+    background-color: #f19f78;
+}
+
+
+.form_contiene h4{
+    margin: 5px 5px 5px 5px;
+}
+
+.buscar{
+    margin-bottom: 5px;
+}
+
+#texto_busq{
+    width: 400px;
+}
+
+#lugar_busq{
+    margin-left: 105px;
+    width: 400px;
+}
+
+/* -------------- Form. Estado */
+.form_estado{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black; 
+    background-color: #f19f78;
+}
+
+.form_estado h4{
+    margin: 5px;
+}
+
+.form_estado form{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+/* -------------- Form. Incidencias x pag y boton */
+.form_incidencias{
+    display: flex;
+    flex-direction: row;
+    background-color: #f19f78;
+}
+
+.boton_enviar{
+    display: flex;
+    background-color: #f19f78;
+    justify-content: center;
+}
+
+.boton_enviar input{
+    margin: 10px;
+}
+
+select#num_incidencias{
+    width: 200px;
+}
+
+/* -------------- GESTION USUARIOS */
+.opciones_gestion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f19f78;
+}
+
+.opciones_gestion h4{
+    width: 15%;
+    text-align: center;
+    align-self: center;
+}
+
+.accion_user{
+    height: 50px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black; 
+    background-color: #f6d191;
+}
+
+.accion_user nav{
+    display:flex;
+    flex-direction: column;
+    background-color: #fce8c6;
+}
+
+.accion_user nav a {
+    width: 150px;
+    color: black;
+}
+
+
+.accion_user nav a:link {
+    text-decoration: none;
+}
+
+.accion_user nav a:hover{
+    background-color: #f19f78;
+    color: #9d9895;
+}
+
+.accion_user nav  a:active{
+    background-color: #ee600b;
+    color: black;
+}
+
+/* -------------- GESTION USUARIOS - Formulario Añadir Nuevo Usuario*/
+
+.form_alta_usuario{
+    width: 100%;
+}
+
+.encabezado_form{
+    height: 80px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.encabezado_form h2{
+    margin: 0;
+    align-self: center;
+}
+
+/* -------------- GESTION USUARIOS - Formulario Añadir Nuevo Usuario: Partes formulario*/
+.upload_fichero p{
+    margin: 0;
+}
+
+.upload_fichero input{
+    margin-left: 60px;
+}
+
+form label{
+    margin-right: 10px;
+}
+
+form input{
+    margin-left: 20px;
+}
+
+.nombre input{
+    margin-left: 27px;
+}
+
+.email input{
+    margin-left: 47px;
+}
+
+
+.password input{
+    width: 205px;
+    margin-left: 47px;
+}
+
+.direccion input{
+    margin-left: 15px;
+}
+
+.tfno input{
+    margin-left: 24px;
+}
+
+.colab select{
+    margin-left: 65px;
+}
+
+.estado_user select{
+    margin-left: 36px;
+}
+
+
+.formulario_alta{
+    background-color: #fce8c6;
+    padding: 10px;
+}
+
+#submit_crear_user{
+    margin: 10px;
+    margin-left: 110px;
+}
+
+
+/* -------------- FOOTER */
+
+footer{
+    background-color:#f12626;
+    align-items: center;
+}
+
+footer div.l_footer{
+    padding: 10px 10px 10px 10px;
+}
+
+div.l_footer  a {
+    margin-right: 40px;
+    color: black;
+}
+
+
+div.l_footer a:link {
+    text-decoration: none;
+}
+
+div.l_footer  a:hover{
+    background-color: #f19f78;
+    color: #9d9895;
+}
+
+
+
+/* -------------- Incidencias */
+
+
+div.cont_incidencias{
+    display: flex;
+    width: 1600px;
+}
+
+div.cont_incidencias div.titulo_incidencia{
+    width: 1600px;
+}
+
+
+div.cont_incidencias div.cont_incidencias{
+    background-color: lightblue;
+}
+
+

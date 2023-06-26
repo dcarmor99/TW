@@ -1,0 +1,196 @@
+
+
+/* --------- Estructura Flexbox */
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+}
+
+#contenido{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.contenidos{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* -------------- ENCABEZADO y NAV */
+
+header{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+
+
+#div11{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#div11 img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height: 150px;
+}
+
+
+#div12{
+    margin: 0px;
+    text-align: center;
+    background-color: #f19f78;
+}
+
+
+/*
+#menu a {
+    margin-right: 40px;
+    color: black;
+}
+
+
+#menu a:link {
+    text-decoration: none;
+}
+
+#menu a:hover{
+    background-color: #f19f78;
+    color: #9d9895;
+}
+
+#menu  a:active{
+    background-color: #ee600b;
+    color: black;
+}
+*/
+#div12 h4{
+    margin: 0px;
+}
+
+/* -------------- CONTENEDOR PRINCIPAL DE CONTENIDO */
+
+
+
+#contenido #c_izq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1600px;
+    /*height: 400px;*/
+    background-color:white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    /*justify-content: center;*/
+}
+
+
+
+
+#contenido #c_der{
+    width: 300px;
+    /*height: 400px;*/
+    background-color:#f19f78;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#contenido #c_izq h3{
+    margin: 50px 50px 50px 50px;
+
+}
+
+
+
+#contenido #c_der form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: #fcf0ac;
+}
+
+#contenido #c_der form button{
+    background-color: lightcoral;
+    height: 40px;
+    width: 40%;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#contenido #c_der div.cont_extra{
+    max-width: 90%;
+    /*height: 300px;*/
+    background-color:lightblue;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    
+}
+
+#contenido #c_der div.cont_extra h4{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* -------------- FOOTER */
+
+footer{
+    background-color:#f12626;
+    align-items: center;
+}
+
+footer div.l_footer{
+    padding: 10px 10px 10px 10px;
+}
+
+div.l_footer  a {
+    margin-right: 40px;
+    color: black;
+}
+
+
+div.l_footer a:link {
+    text-decoration: none;
+}
+
+div.l_footer  a:hover{
+    background-color: #f19f78;
+    color: #9d9895;
+}
