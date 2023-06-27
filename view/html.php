@@ -113,7 +113,7 @@ function __htmlContenido_Der(){
                     <label for="email">Email:</label><br>
                     <input type="text" id = "email" name="email"><br>
                     <label for="password">Clave:</label><br>
-                    <input type="text" id = "password" name="password"><br>
+                    <input type="password" id = "password" name="password"><br>
                     <button type="button" onclick="">Login</button>                    
                 </form>
                 <div class="cont_extra">
@@ -137,6 +137,7 @@ function __htmlContenido_Der(){
 
 }
 
+
 /*Muestra mensaje de Copyright*/ 
 function __htmlContenidoCopyright(){
     echo <<< HTML
@@ -152,7 +153,6 @@ function __htmlContenidoCopyright(){
                     no se permite su uso en otro contexto.</p>
         </main>
     HTML; 
-
 }
 
 /*Muestra mensaje de Manual de Usuario*/
